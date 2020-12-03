@@ -1,32 +1,95 @@
 body {
-  background-color: #dbe2ef;
   font-family: 'Bree Serif', serif;
-  padding: 3% 3%;
+  text-align: center;
 }
 
-h3 {
-font-family: 'Roboto', sans-serif;
+h2 {
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+/* profilo */
+
+#profilo {
+  background-color: #fca652;
+  padding: 7%;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2;
 }
 
 .fotocv {
   height: 200px;
+  border-radius: 100%;
 }
 
-hr {
-  border-top-style: dotted;
-  border-width: 5px 0 0 0;
-  width: 80%;
-  margin: 25px auto 25px;
+/* container  */
+
+.container-fluid {
+  padding: 0%;
 }
 
-table {
+/* esperienze  */
+
+#esperienze {
+  background-color: #ffd57e;
+  padding: 7%;
+}
+
+#slide-esperienze {
+  text-align: left;
+  padding: 0 100px;
+}
+
+/* competenze  */
+
+#competenze {
+  background-color: #fca652;
+  padding: 7%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.competenze-align {
   text-align: left;
 }
 
-td, th {
-  padding: 5px;
+/* lingue */
+
+#lingue {
+  background-color: #ffd57e;
+  padding: 7%;
 }
 
-li {
-  padding-bottom: 5px;
+/* istruzione  */
+
+#istruzione {
+  background-color: #fca652;
+  padding: 7%;
+  color: #fff;
+}
+
+.card {
+  border: solid 1px;
+}
+
+.card-header {
+  background-color: #fca652;
+  color: #fff;
+}
+
+.card-body {
+  background-color: #ffd57e;
+}
+
+/* footer  */
+
+#footer {
+  background-color: #ffd57e;
+  padding: 7%;
+}
+
+.fab {
+  padding: 2%;
+  font-size: 25px;
 }
